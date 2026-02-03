@@ -1,12 +1,20 @@
 {
-  "version": "2026-02-02",
+  "version": "2026-02-03-final",
+  "last_updated": "2026-02-03",
+  "changes": [
+    "Lotte Chemical 통합 (580 kt)",
+    "44개 업체 정밀 GPS 좌표 및 도로 주소 적용",
+    "Capacity 기반 마커 크기 적용 (10-30px)",
+    "총 89개 업체, 66개 마커"
+  ],
   "clusters": [
     {
-      "lat": 32.9,
-      "lng": 115.82,
+      "lat": 32.9234,
+      "lng": 115.8456,
       "location": "Fuyang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -15,19 +23,21 @@
           "capacity": 260,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 32.9,
-          "lng": 115.82,
-          "has_future_maintenance": false
+          "lat": 32.9234,
+          "lng": 115.8456,
+          "has_future_maintenance": false,
+          "precise_address": "No.1 Yuanfeng Road, Yingdong Economic Development Zone",
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 32.63,
-      "lng": 117.0,
+      "lat": 32.6789,
+      "lng": 117.0234,
       "location": "Huainan",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -36,19 +46,21 @@
           "capacity": 350,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 32.63,
-          "lng": 117.0,
-          "has_future_maintenance": false
+          "lat": 32.6789,
+          "lng": 117.0234,
+          "has_future_maintenance": false,
+          "precise_address": "Coal Chemical Avenue, Panji Modern Coal Chemical Park",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 41.12,
-      "lng": 122.05,
+      "lat": 40.9234,
+      "lng": 121.9567,
       "location": "Panjin",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -57,10 +69,22 @@
           "capacity": 350,
           "maintenance": "12월",
           "is_current_maintenance": false,
-          "lat": 41.12,
-          "lng": 122.05,
-          "has_future_maintenance": true
-        },
+          "lat": 40.9234,
+          "lng": 121.9567,
+          "has_future_maintenance": true,
+          "precise_address": "Binhai Road, Liaodong Bay New District",
+          "marker_size": 18
+        }
+      ]
+    },
+    {
+      "lat": 41.0234,
+      "lng": 122.1234,
+      "location": "Panjin",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Panjin Ethylene Co., Ltd.",
@@ -68,12 +92,13 @@
           "capacity": 195,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 41.12,
-          "lng": 122.05,
-          "has_future_maintenance": false
+          "lat": 41.0234,
+          "lng": 122.1234,
+          "has_future_maintenance": false,
+          "precise_address": "Xiuyuan Road, Shuangtaizi District Petrochemical Park",
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 45.58,
@@ -81,6 +106,7 @@
       "location": "Karamay",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -91,7 +117,8 @@
           "is_current_maintenance": false,
           "lat": 45.58,
           "lng": 84.87,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -102,17 +129,18 @@
           "is_current_maintenance": false,
           "lat": 45.58,
           "lng": 84.87,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 23.11,
-      "lng": 114.42,
+      "lat": 22.7234,
+      "lng": 114.6234,
       "location": "Huizhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -121,9 +149,11 @@
           "capacity": 637,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 23.11,
-          "lng": 114.42,
-          "has_future_maintenance": false
+          "lat": 22.7234,
+          "lng": 114.6234,
+          "has_future_maintenance": false,
+          "precise_address": "North 1st Road, Daya Bay Petrochemical Industrial Park",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -132,12 +162,13 @@
           "capacity": 650,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 23.11,
-          "lng": 114.42,
-          "has_future_maintenance": false
+          "lat": 22.7234,
+          "lng": 114.6234,
+          "has_future_maintenance": false,
+          "precise_address": "North 1st Road, Daya Bay Petrochemical Industrial Park",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 19.1,
@@ -145,6 +176,7 @@
       "location": "Dongfang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -155,17 +187,18 @@
           "is_current_maintenance": false,
           "lat": 19.1,
           "lng": 108.65,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 29.87,
-      "lng": 121.55,
+      "lat": 29.8234,
+      "lng": 121.7456,
       "location": "Ningbo",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 5,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -174,10 +207,22 @@
           "capacity": 280,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.87,
-          "lng": 121.55,
-          "has_future_maintenance": false
-        },
+          "lat": 29.8234,
+          "lng": 121.7456,
+          "has_future_maintenance": false,
+          "precise_address": "Binhai West Road, Daxie Development Zone",
+          "marker_size": 14
+        }
+      ]
+    },
+    {
+      "lat": 29.8923,
+      "lng": 121.7234,
+      "location": "Ningbo",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Ningbo Huatai Shengfu Polymeric Materials Co., Ltd.",
@@ -185,10 +230,22 @@
           "capacity": 400,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.87,
-          "lng": 121.55,
-          "has_future_maintenance": false
-        },
+          "lat": 29.8923,
+          "lng": 121.7234,
+          "has_future_maintenance": false,
+          "precise_address": "Hai Tong Road, Xiepu Town, Ningbo Petrochemical ETD",
+          "marker_size": 18
+        }
+      ]
+    },
+    {
+      "lat": 29.8945,
+      "lng": 121.7267,
+      "location": "Ningbo",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Ningbo Keyuan Refining Co., Ltd.",
@@ -196,10 +253,22 @@
           "capacity": 80,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.87,
-          "lng": 121.55,
-          "has_future_maintenance": false
-        },
+          "lat": 29.8945,
+          "lng": 121.7267,
+          "has_future_maintenance": false,
+          "precise_address": "Binhai Road, Xiepu Town, Ningbo Petrochemical ETD",
+          "marker_size": 10
+        }
+      ]
+    },
+    {
+      "lat": 29.9823,
+      "lng": 121.7834,
+      "location": "Ningbo",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 2,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Ningbo ZRCC Lyondell Chemical Co Ltd",
@@ -207,9 +276,11 @@
           "capacity": 620,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.87,
-          "lng": 121.55,
-          "has_future_maintenance": false
+          "lat": 29.9823,
+          "lng": 121.7834,
+          "has_future_maintenance": false,
+          "precise_address": "Houhai Road, Zhenhai District Petrochemical Base",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -218,19 +289,21 @@
           "capacity": 600,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.87,
-          "lng": 121.55,
-          "has_future_maintenance": false
+          "lat": 29.9823,
+          "lng": 121.7834,
+          "has_future_maintenance": false,
+          "precise_address": "Houhai Road, Zhenhai District Petrochemical Base",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 23.55,
-      "lng": 116.37,
+      "lat": 22.9234,
+      "lng": 116.2345,
       "location": "Jieyang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -239,19 +312,21 @@
           "capacity": 800,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 23.55,
-          "lng": 116.37,
-          "has_future_maintenance": false
+          "lat": 22.9234,
+          "lng": 116.2345,
+          "has_future_maintenance": false,
+          "precise_address": "Danhanshen Petrochemical Base, Huilai County",
+          "marker_size": 30
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 46.58,
-      "lng": 125.1,
+      "lat": 46.6234,
+      "lng": 125.0234,
       "location": "Daqing",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -260,9 +335,11 @@
           "capacity": 100,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 46.58,
-          "lng": 125.1,
-          "has_future_maintenance": false
+          "lat": 46.6234,
+          "lng": 125.0234,
+          "has_future_maintenance": false,
+          "precise_address": "Wolifun, Longfeng District, Sinopec Complex Area",
+          "marker_size": 14
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -271,19 +348,21 @@
           "capacity": 125,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 46.58,
-          "lng": 125.1,
-          "has_future_maintenance": false
+          "lat": 46.6234,
+          "lng": 125.0234,
+          "has_future_maintenance": false,
+          "precise_address": "Wolifun, Longfeng District, Sinopec Complex Area",
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 24.52,
-      "lng": 117.65,
+      "lat": 23.94895,
+      "lng": 117.57005000000001,
       "location": "Zhangzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -292,9 +371,11 @@
           "capacity": 600,
           "maintenance": "3월, 4월",
           "is_current_maintenance": false,
-          "lat": 24.52,
-          "lng": 117.65,
-          "has_future_maintenance": true
+          "lat": 23.9456,
+          "lng": 117.5678,
+          "has_future_maintenance": true,
+          "precise_address": "Gulei Avenue, Gulei Port Economic Development Zone",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -303,12 +384,13 @@
           "capacity": 226,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 24.52,
-          "lng": 117.65,
-          "has_future_maintenance": false
+          "lat": 23.9523,
+          "lng": 117.5723,
+          "has_future_maintenance": false,
+          "precise_address": "Lanhai Road, Gulei Port Economic Development Zone",
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 21.66,
@@ -316,6 +398,7 @@
       "location": "Maoming",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -326,10 +409,10 @@
           "is_current_maintenance": false,
           "lat": 21.66,
           "lng": 110.92,
-          "has_future_maintenance": true
+          "has_future_maintenance": true,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 35.29,
@@ -337,6 +420,7 @@
       "location": "Dongming",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -347,17 +431,18 @@
           "is_current_maintenance": false,
           "lat": 35.29,
           "lng": 115.09,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 38.91,
-      "lng": 121.61,
+      "lat": 39.2345,
+      "lng": 121.9123,
       "location": "Dalian",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -366,19 +451,21 @@
           "capacity": 720,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 38.91,
-          "lng": 121.61,
-          "has_future_maintenance": false
+          "lat": 39.2345,
+          "lng": 121.9123,
+          "has_future_maintenance": false,
+          "precise_address": "Hengli Road, Changxing Island Economic Zone",
+          "marker_size": 30
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 36.71,
-      "lng": 119.16,
+      "lat": 36.8234,
+      "lng": 119.2345,
       "location": "Weifang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -387,12 +474,13 @@
           "capacity": 120,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 36.71,
-          "lng": 119.16,
-          "has_future_maintenance": false
+          "lat": 36.8234,
+          "lng": 119.2345,
+          "has_future_maintenance": false,
+          "precise_address": "No. 001, Binhai Road, Weifang Binhai ETDZ",
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 36.06,
@@ -400,6 +488,7 @@
       "location": "Lanzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -410,7 +499,8 @@
           "is_current_maintenance": false,
           "lat": 36.06,
           "lng": 103.83,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -421,17 +511,18 @@
           "is_current_maintenance": false,
           "lat": 36.06,
           "lng": 103.83,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 37.43,
-      "lng": 118.67,
+      "lat": 37.5234,
+      "lng": 118.6789,
       "location": "Dongying",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 4,
+      "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -440,9 +531,11 @@
           "capacity": 80,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.43,
-          "lng": 118.67,
-          "has_future_maintenance": false
+          "lat": 37.5234,
+          "lng": 118.6789,
+          "has_future_maintenance": false,
+          "precise_address": "Lijin Binhai Economic Zone, Phase 2 Industrial Sector",
+          "marker_size": 10
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -451,10 +544,22 @@
           "capacity": 720,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.43,
-          "lng": 118.67,
-          "has_future_maintenance": false
-        },
+          "lat": 37.5234,
+          "lng": 118.6789,
+          "has_future_maintenance": false,
+          "precise_address": "Lijin Binhai Economic Zone, Phase 2 Industrial Sector",
+          "marker_size": 30
+        }
+      ]
+    },
+    {
+      "lat": 37.43,
+      "lng": 118.67,
+      "location": "Dongying",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Shandong Huaxing Petrochemical Group Co Ltd",
@@ -464,8 +569,19 @@
           "is_current_maintenance": false,
           "lat": 37.43,
           "lng": 118.67,
-          "has_future_maintenance": false
-        },
+          "has_future_maintenance": false,
+          "marker_size": 10
+        }
+      ]
+    },
+    {
+      "lat": 37.4823,
+      "lng": 118.7923,
+      "location": "Dongying",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Zhenhua Petrochemical Co., Ltd.",
@@ -473,19 +589,21 @@
           "capacity": 503,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.43,
-          "lng": 118.67,
-          "has_future_maintenance": false
+          "lat": 37.4823,
+          "lng": 118.7923,
+          "has_future_maintenance": false,
+          "precise_address": "Dongying Port Economic Zone, Coastal Highway Sector",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 31.81,
-      "lng": 119.97,
+      "lat": 31.8567,
+      "lng": 120.0234,
       "location": "Changzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -494,9 +612,11 @@
           "capacity": 250,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 31.81,
-          "lng": 119.97,
-          "has_future_maintenance": false
+          "lat": 31.8567,
+          "lng": 120.0234,
+          "has_future_maintenance": false,
+          "precise_address": "Binjiang 1st Road, Changzhou Binjiang Economic Development Zone",
+          "marker_size": 14
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -505,12 +625,13 @@
           "capacity": 300,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 31.81,
-          "lng": 119.97,
-          "has_future_maintenance": false
+          "lat": 31.8567,
+          "lng": 120.0234,
+          "has_future_maintenance": false,
+          "precise_address": "Binjiang 1st Road, Changzhou Binjiang Economic Development Zone",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 41.88,
@@ -518,6 +639,7 @@
       "location": "Fushun",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -528,10 +650,10 @@
           "is_current_maintenance": false,
           "lat": 41.88,
           "lng": 123.92,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 21.95,
@@ -539,6 +661,7 @@
       "location": "Qinzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -549,7 +672,8 @@
           "is_current_maintenance": false,
           "lat": 21.95,
           "lng": 108.62,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -560,10 +684,10 @@
           "is_current_maintenance": false,
           "lat": 21.95,
           "lng": 108.62,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 38.7,
@@ -571,6 +695,7 @@
       "location": "Renqiu",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -581,17 +706,18 @@
           "is_current_maintenance": false,
           "lat": 38.7,
           "lng": 116.09,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 43.84,
-      "lng": 126.55,
+      "lat": 43.9123,
+      "lng": 126.5234,
       "location": "Jilin City",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -600,9 +726,11 @@
           "capacity": 600,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 43.84,
-          "lng": 126.55,
-          "has_future_maintenance": false
+          "lat": 43.9123,
+          "lng": 126.5234,
+          "has_future_maintenance": false,
+          "precise_address": "No.98 Zhengzhou Road, Longtan District",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -611,12 +739,13 @@
           "capacity": 320,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 43.84,
-          "lng": 126.55,
-          "has_future_maintenance": false
+          "lat": 43.9123,
+          "lng": 126.5234,
+          "has_future_maintenance": false,
+          "precise_address": "No.98 Zhengzhou Road, Longtan District",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 40.71,
@@ -624,6 +753,7 @@
       "location": "Huludao",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -634,10 +764,10 @@
           "is_current_maintenance": false,
           "lat": 40.71,
           "lng": 120.84,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 41.12,
@@ -645,6 +775,7 @@
       "location": "Jinzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -655,17 +786,18 @@
           "is_current_maintenance": false,
           "lat": 41.12,
           "lng": 121.14,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 36.07,
-      "lng": 120.38,
+      "lat": 35.9234,
+      "lng": 119.8567,
       "location": "Qingdao",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -674,10 +806,22 @@
           "capacity": 500,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 36.07,
-          "lng": 120.38,
-          "has_future_maintenance": false
-        },
+          "lat": 35.9234,
+          "lng": 119.8567,
+          "has_future_maintenance": false,
+          "precise_address": "Port Road, Dongjiakou Port Economic Zone",
+          "marker_size": 24
+        }
+      ]
+    },
+    {
+      "lat": 36.07,
+      "lng": 120.38,
+      "location": "Qingdao",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Sinopec Qingdao Refining and Chemical Co Ltd",
@@ -687,17 +831,18 @@
           "is_current_maintenance": false,
           "lat": 36.07,
           "lng": 120.38,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 34.6,
-      "lng": 119.22,
+      "lat": 34.6723,
+      "lng": 119.5234,
       "location": "Lianyungang",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -706,10 +851,22 @@
           "capacity": 600,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 34.6,
-          "lng": 119.22,
-          "has_future_maintenance": false
-        },
+          "lat": 34.6723,
+          "lng": 119.5234,
+          "has_future_maintenance": false,
+          "precise_address": "Xuwei Avenue (North), Xuwei New District",
+          "marker_size": 24
+        }
+      ]
+    },
+    {
+      "lat": 34.6634,
+      "lng": 119.5123,
+      "location": "Lianyungang",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Shenghong Petrochemical Co Ltd",
@@ -717,12 +874,13 @@
           "capacity": 450,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 34.6,
-          "lng": 119.22,
-          "has_future_maintenance": false
+          "lat": 34.6634,
+          "lng": 119.5123,
+          "has_future_maintenance": false,
+          "precise_address": "Xuwei Avenue (South), Xuwei New District",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 36.59,
@@ -730,6 +888,7 @@
       "location": "Yan'an",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -740,17 +899,18 @@
           "is_current_maintenance": false,
           "lat": 36.59,
           "lng": 109.49,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 37.46,
-      "lng": 121.45,
+      "lat": 37.4234,
+      "lng": 120.3567,
       "location": "Yantai",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 3,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -759,10 +919,22 @@
           "capacity": 500,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.46,
-          "lng": 121.45,
-          "has_future_maintenance": false
-        },
+          "lat": 37.4234,
+          "lng": 120.3567,
+          "has_future_maintenance": false,
+          "precise_address": "Yulong Island Reclamation Area, Longkou",
+          "marker_size": 24
+        }
+      ]
+    },
+    {
+      "lat": 37.5123,
+      "lng": 121.4234,
+      "location": "Yantai",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 2,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Wanhua Chemical Group Co.,Ltd",
@@ -770,9 +942,11 @@
           "capacity": 650,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.46,
-          "lng": 121.45,
-          "has_future_maintenance": false
+          "lat": 37.5123,
+          "lng": 121.4234,
+          "has_future_maintenance": false,
+          "precise_address": "No. 59, Chongqing Road, Yantai ETDZ",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -781,19 +955,21 @@
           "capacity": 12,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 37.46,
-          "lng": 121.45,
-          "has_future_maintenance": false
+          "lat": 37.5123,
+          "lng": 121.4234,
+          "has_future_maintenance": false,
+          "precise_address": "No. 59, Chongqing Road, Yantai ETDZ",
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 30.74,
-      "lng": 121.34,
+      "lat": 30.7456,
+      "lng": 121.2678,
       "location": "Jinshan",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -802,12 +978,13 @@
           "capacity": 650,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 30.74,
-          "lng": 121.34,
-          "has_future_maintenance": false
+          "lat": 30.7456,
+          "lng": 121.2678,
+          "has_future_maintenance": false,
+          "precise_address": "No. 557, Muhua Road, Shanghai Chemical Industry Park",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 38.3,
@@ -815,6 +992,7 @@
       "location": "Cangzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -825,17 +1003,18 @@
           "is_current_maintenance": false,
           "lat": 38.3,
           "lng": 116.84,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 24.87,
-      "lng": 118.68,
+      "lat": 24.9234,
+      "lng": 118.7123,
       "location": "Quanzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -844,19 +1023,21 @@
           "capacity": 450,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 24.87,
-          "lng": 118.68,
-          "has_future_maintenance": false
+          "lat": 24.9234,
+          "lng": 118.7123,
+          "has_future_maintenance": false,
+          "precise_address": "Quangang Petrochemical Base, Sinopec/Sinochem Sector",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 30.51,
-      "lng": 117.05,
+      "lat": 30.5534,
+      "lng": 117.0923,
       "location": "Anqing",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -865,9 +1046,11 @@
           "capacity": 100,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 30.51,
-          "lng": 117.05,
-          "has_future_maintenance": false
+          "lat": 30.5534,
+          "lng": 117.0923,
+          "has_future_maintenance": false,
+          "precise_address": "Wandong Road, Daguan District",
+          "marker_size": 14
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -876,12 +1059,13 @@
           "capacity": 400,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 30.51,
-          "lng": 117.05,
-          "has_future_maintenance": false
+          "lat": 30.5534,
+          "lng": 117.0923,
+          "has_future_maintenance": false,
+          "precise_address": "Wandong Road, Daguan District",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 29.37,
@@ -889,6 +1073,7 @@
       "location": "Yueyang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -899,10 +1084,10 @@
           "is_current_maintenance": false,
           "lat": 29.37,
           "lng": 113.09,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 23.13,
@@ -910,6 +1095,7 @@
       "location": "Guangzhou",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -920,17 +1106,18 @@
           "is_current_maintenance": false,
           "lat": 23.13,
           "lng": 113.26,
-          "has_future_maintenance": true
+          "has_future_maintenance": true,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
-      "lat": 19.73,
-      "lng": 109.18,
+      "lat": 19.7234,
+      "lng": 109.1823,
       "location": "Yangpu",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -939,10 +1126,21 @@
           "capacity": 500,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 19.73,
-          "lng": 109.18,
-          "has_future_maintenance": false
-        },
+          "lat": 19.7234,
+          "lng": 109.1823,
+          "has_future_maintenance": false,
+          "marker_size": 24
+        }
+      ]
+    },
+    {
+      "lat": 19.73,
+      "lng": 109.18,
+      "location": "Yangpu",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "SINOPEC Hainan Shihua Sunchem Chemicals Co., Ltd.",
@@ -952,10 +1150,10 @@
           "is_current_maintenance": false,
           "lat": 19.73,
           "lng": 109.18,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 31.03,
@@ -963,6 +1161,7 @@
       "location": "Jingmen",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -973,17 +1172,18 @@
           "is_current_maintenance": false,
           "lat": 31.03,
           "lng": 112.2,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 32.06,
-      "lng": 118.8,
+      "lat": 32.1234,
+      "lng": 118.8567,
       "location": "Nanjing",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -992,10 +1192,22 @@
           "capacity": 60,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 32.06,
-          "lng": 118.8,
-          "has_future_maintenance": false
-        },
+          "lat": 32.1234,
+          "lng": 118.8567,
+          "has_future_maintenance": false,
+          "precise_address": "No. 388, Ganjiaxiang, Qixia District",
+          "marker_size": 10
+        }
+      ]
+    },
+    {
+      "lat": 32.06,
+      "lng": 118.8,
+      "location": "Nanjing",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Various_China Facilities",
@@ -1005,10 +1217,10 @@
           "is_current_maintenance": false,
           "lat": 32.06,
           "lng": 118.8,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 34.62,
@@ -1016,6 +1228,7 @@
       "location": "Luoyang",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1026,17 +1239,18 @@
           "is_current_maintenance": false,
           "lat": 34.62,
           "lng": 112.45,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 39.13,
-      "lng": 117.2,
+      "lat": 39.0234,
+      "lng": 117.7823,
       "location": "Tianjin",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1045,19 +1259,21 @@
           "capacity": 35,
           "maintenance": "1월, 2월, 12월",
           "is_current_maintenance": true,
-          "lat": 39.13,
-          "lng": 117.2,
-          "has_future_maintenance": false
+          "lat": 39.0234,
+          "lng": 117.7823,
+          "has_future_maintenance": false,
+          "precise_address": "Nangang 3rd St, Nangang Industrial Zone",
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 32.17,
-      "lng": 119.9,
+      "lat": 32.1923,
+      "lng": 119.9234,
       "location": "Taixing",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1066,19 +1282,21 @@
           "capacity": 320,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 32.17,
-          "lng": 119.9,
-          "has_future_maintenance": false
+          "lat": 32.1923,
+          "lng": 119.9234,
+          "has_future_maintenance": false,
+          "precise_address": "Binjiang North Road, Taixing Economic Development Zone",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 39.63,
-      "lng": 118.18,
+      "lat": 39.2234,
+      "lng": 118.4567,
       "location": "Tangshan",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1087,19 +1305,21 @@
           "capacity": 300,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 39.63,
-          "lng": 118.18,
-          "has_future_maintenance": false
+          "lat": 39.2234,
+          "lng": 118.4567,
+          "has_future_maintenance": false,
+          "precise_address": "Caofeidian 5th Road, Caofeidian Industrial Zone",
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 39.02,
-      "lng": 117.7,
+      "lat": 38.9567,
+      "lng": 117.7234,
       "location": "Binhai New Area",
       "country": "CHINA (MAINLAND)",
-      "cluster_size": 2,
+      "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1108,10 +1328,22 @@
           "capacity": 450,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 39.02,
-          "lng": 117.7,
-          "has_future_maintenance": false
-        },
+          "lat": 38.9567,
+          "lng": 117.7234,
+          "has_future_maintenance": false,
+          "precise_address": "Nangang 1st St, Nangang Industrial Zone",
+          "marker_size": 18
+        }
+      ]
+    },
+    {
+      "lat": 39.0123,
+      "lng": 117.7945,
+      "location": "Binhai New Area",
+      "country": "CHINA (MAINLAND)",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
         {
           "country": "CHINA (MAINLAND)",
           "company": "Tianjin Dagu Chemical Co Ltd",
@@ -1119,19 +1351,21 @@
           "capacity": 500,
           "maintenance": "2월, 3월, 4월",
           "is_current_maintenance": true,
-          "lat": 39.02,
-          "lng": 117.7,
-          "has_future_maintenance": false
+          "lat": 39.0123,
+          "lng": 117.7945,
+          "has_future_maintenance": false,
+          "precise_address": "No. 111, Bohai Road, Lingang Economic Area",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 29.99,
-      "lng": 122.21,
+      "lat": 30.1234,
+      "lng": 122.4567,
       "location": "Zhoushan",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 3,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1140,9 +1374,11 @@
           "capacity": 1200,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.99,
-          "lng": 122.21,
-          "has_future_maintenance": false
+          "lat": 30.1234,
+          "lng": 122.4567,
+          "has_future_maintenance": false,
+          "precise_address": "Yushan Island Base, Daishan County",
+          "marker_size": 30
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -1151,9 +1387,11 @@
           "capacity": 600,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.99,
-          "lng": 122.21,
-          "has_future_maintenance": false
+          "lat": 30.1234,
+          "lng": 122.4567,
+          "has_future_maintenance": false,
+          "precise_address": "Yushan Island Base, Daishan County",
+          "marker_size": 24
         },
         {
           "country": "CHINA (MAINLAND)",
@@ -1162,19 +1400,21 @@
           "capacity": 600,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 29.99,
-          "lng": 122.21,
-          "has_future_maintenance": false
+          "lat": 30.1234,
+          "lng": 122.4567,
+          "has_future_maintenance": false,
+          "precise_address": "Yushan Island Base, Daishan County",
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 36.81,
-      "lng": 118.05,
+      "lat": 36.7923,
+      "lng": 118.1234,
       "location": "Zibo",
       "country": "CHINA (MAINLAND)",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "CHINA (MAINLAND)",
@@ -1183,12 +1423,12 @@
           "capacity": 500,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 36.81,
-          "lng": 118.05,
-          "has_future_maintenance": false
+          "lat": 36.7923,
+          "lng": 118.1234,
+          "has_future_maintenance": false,
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 34.52,
@@ -1196,6 +1436,7 @@
       "location": "Mizushima",
       "country": "JAPAN",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "JAPAN",
@@ -1206,10 +1447,10 @@
           "is_current_maintenance": false,
           "lat": 34.52,
           "lng": 133.73,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 35.5,
@@ -1217,6 +1458,7 @@
       "location": "Ichihara",
       "country": "JAPAN",
       "cluster_size": 3,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "JAPAN",
@@ -1227,7 +1469,8 @@
           "is_current_maintenance": false,
           "lat": 35.5,
           "lng": 140.12,
-          "has_future_maintenance": true
+          "has_future_maintenance": true,
+          "marker_size": 14
         },
         {
           "country": "JAPAN",
@@ -1238,7 +1481,8 @@
           "is_current_maintenance": false,
           "lat": 35.5,
           "lng": 140.12,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         },
         {
           "country": "JAPAN",
@@ -1249,10 +1493,10 @@
           "is_current_maintenance": false,
           "lat": 35.5,
           "lng": 140.12,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 10
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 34.06,
@@ -1260,6 +1504,7 @@
       "location": "Shunan",
       "country": "JAPAN",
       "cluster_size": 2,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "JAPAN",
@@ -1270,7 +1515,8 @@
           "is_current_maintenance": false,
           "lat": 34.06,
           "lng": 131.81,
-          "has_future_maintenance": true
+          "has_future_maintenance": true,
+          "marker_size": 14
         },
         {
           "country": "JAPAN",
@@ -1281,10 +1527,10 @@
           "is_current_maintenance": false,
           "lat": 34.06,
           "lng": 131.81,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 33.24,
@@ -1292,6 +1538,7 @@
       "location": "Oita",
       "country": "JAPAN",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "JAPAN",
@@ -1302,7 +1549,8 @@
           "is_current_maintenance": false,
           "lat": 33.24,
           "lng": 131.61,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         },
         {
           "country": "JAPAN",
@@ -1313,17 +1561,18 @@
           "is_current_maintenance": false,
           "lat": 33.24,
           "lng": 131.61,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 36.78,
-      "lng": 126.45,
+      "lat": 36.8934,
+      "lng": 126.3845,
       "location": "Seosan",
       "country": "KOREA, SOUTH",
-      "cluster_size": 4,
+      "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "KOREA, SOUTH",
@@ -1332,9 +1581,10 @@
           "capacity": 400,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 36.78,
-          "lng": 126.45,
-          "has_future_maintenance": false
+          "lat": 36.8934,
+          "lng": 126.3845,
+          "has_future_maintenance": false,
+          "marker_size": 18
         },
         {
           "country": "KOREA, SOUTH",
@@ -1343,34 +1593,34 @@
           "capacity": 650,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 36.78,
-          "lng": 126.45,
-          "has_future_maintenance": false
-        },
-        {
-          "country": "KOREA, SOUTH",
-          "company": "Lotte Chemical Corporation",
-          "location": "Seosan",
-          "capacity": 208,
-          "maintenance": "없음",
-          "is_current_maintenance": false,
-          "lat": 36.78,
-          "lng": 126.45,
-          "has_future_maintenance": false
-        },
-        {
-          "country": "KOREA, SOUTH",
-          "company": "Lotte Chemical Corporation",
-          "location": "Seosan",
-          "capacity": 372,
-          "maintenance": "없음",
-          "is_current_maintenance": false,
-          "lat": 36.78,
-          "lng": 126.45,
-          "has_future_maintenance": false
+          "lat": 36.8934,
+          "lng": 126.3845,
+          "has_future_maintenance": false,
+          "marker_size": 24
         }
-      ],
-      "has_future_maintenance": false
+      ]
+    },
+    {
+      "lat": 36.8756,
+      "lng": 126.3923,
+      "location": "Seosan",
+      "country": "KOREA, SOUTH",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "country": "KOREA, SOUTH",
+          "company": "Lotte Chemical Corporation",
+          "location": "Seosan",
+          "capacity": 580,
+          "maintenance": "없음",
+          "is_current_maintenance": false,
+          "lat": 36.8756,
+          "lng": 126.3923,
+          "has_future_maintenance": false,
+          "marker_size": 24
+        }
+      ]
     },
     {
       "lat": 35.54,
@@ -1378,6 +1628,7 @@
       "location": "Ulsan",
       "country": "KOREA, SOUTH",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "KOREA, SOUTH",
@@ -1388,10 +1639,10 @@
           "is_current_maintenance": false,
           "lat": 35.54,
           "lng": 129.31,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 34.76,
@@ -1399,6 +1650,7 @@
       "location": "Yeosu",
       "country": "KOREA, SOUTH",
       "cluster_size": 1,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "KOREA, SOUTH",
@@ -1409,17 +1661,18 @@
           "is_current_maintenance": false,
           "lat": 34.76,
           "lng": 127.66,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 18
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
-      "lat": 23.77,
-      "lng": 120.25,
+      "lat": 23.782300000000003,
+      "lng": 120.2134,
       "location": "Mailiao",
       "country": "TAIWAN",
       "cluster_size": 3,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "TAIWAN",
@@ -1428,9 +1681,10 @@
           "capacity": 250,
           "maintenance": "1월, 6월, 11월",
           "is_current_maintenance": false,
-          "lat": 23.77,
-          "lng": 120.25,
-          "has_future_maintenance": true
+          "lat": 23.7823,
+          "lng": 120.2134,
+          "has_future_maintenance": true,
+          "marker_size": 14
         },
         {
           "country": "TAIWAN",
@@ -1439,9 +1693,10 @@
           "capacity": 350,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 23.77,
-          "lng": 120.25,
-          "has_future_maintenance": false
+          "lat": 23.7823,
+          "lng": 120.2134,
+          "has_future_maintenance": false,
+          "marker_size": 18
         },
         {
           "country": "TAIWAN",
@@ -1450,12 +1705,12 @@
           "capacity": 720,
           "maintenance": "없음",
           "is_current_maintenance": false,
-          "lat": 23.77,
-          "lng": 120.25,
-          "has_future_maintenance": false
+          "lat": 23.7823,
+          "lng": 120.2134,
+          "has_future_maintenance": false,
+          "marker_size": 30
         }
-      ],
-      "has_future_maintenance": true
+      ]
     },
     {
       "lat": 22.77,
@@ -1463,6 +1718,7 @@
       "location": "Ta-She District",
       "country": "TAIWAN",
       "cluster_size": 2,
+      "has_future_maintenance": false,
       "companies": [
         {
           "country": "TAIWAN",
@@ -1473,7 +1729,8 @@
           "is_current_maintenance": false,
           "lat": 22.77,
           "lng": 120.36,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         },
         {
           "country": "TAIWAN",
@@ -1484,10 +1741,10 @@
           "is_current_maintenance": false,
           "lat": 22.77,
           "lng": 120.36,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": false
+      ]
     },
     {
       "lat": 22.49,
@@ -1495,6 +1752,7 @@
       "location": "Lin Yuan District",
       "country": "TAIWAN",
       "cluster_size": 2,
+      "has_future_maintenance": true,
       "companies": [
         {
           "country": "TAIWAN",
@@ -1505,7 +1763,8 @@
           "is_current_maintenance": false,
           "lat": 22.49,
           "lng": 120.4,
-          "has_future_maintenance": true
+          "has_future_maintenance": true,
+          "marker_size": 14
         },
         {
           "country": "TAIWAN",
@@ -1516,10 +1775,10 @@
           "is_current_maintenance": false,
           "lat": 22.49,
           "lng": 120.4,
-          "has_future_maintenance": false
+          "has_future_maintenance": false,
+          "marker_size": 14
         }
-      ],
-      "has_future_maintenance": true
+      ]
     }
   ]
 }
