@@ -1,12 +1,16 @@
 {
-  "version": "2026-02-03-final",
-  "last_updated": "2026-02-03",
-  "changes": [
-    "Lotte Chemical 통합 (580 kt)",
-    "44개 업체 정밀 GPS 좌표 및 도로 주소 적용",
-    "Capacity 기반 마커 크기 적용 (10-30px)",
-    "총 89개 업체, 66개 마커"
-  ],
+  "version": "2026-02-03-global-updated",
+  "last_updated": "2026-02-04",
+  "description": "Global SM Production Companies Map - Updated with Scraps and Shutdowns",
+  "total_companies": 112,
+  "total_clusters": 90,
+  "regions": {
+    "Asia": 91,
+    "Middle East": 4,
+    "Europe": 8,
+    "Americas": 7,
+    "Russia": 2
+  },
   "clusters": [
     {
       "lat": 32.9234,
@@ -1457,7 +1461,7 @@
       "lng": 140.12,
       "location": "Ichihara",
       "country": "JAPAN",
-      "cluster_size": 3,
+      "cluster_size": 2,
       "has_future_maintenance": true,
       "companies": [
         {
@@ -1483,18 +1487,6 @@
           "lng": 140.12,
           "has_future_maintenance": false,
           "marker_size": 14
-        },
-        {
-          "country": "JAPAN",
-          "company": "Toyo Styrene Co., Ltd.",
-          "location": "Ichihara",
-          "capacity": 2,
-          "maintenance": "없음",
-          "is_current_maintenance": false,
-          "lat": 35.5,
-          "lng": 140.12,
-          "has_future_maintenance": false,
-          "marker_size": 10
         }
       ]
     },
@@ -1576,19 +1568,19 @@
       "companies": [
         {
           "country": "KOREA, SOUTH",
-          "company": "Hanwha TotalEnergies Petrochemical Co Ltd",
+          "company": "Hanwha TotalEnergies Petrochemical Co Ltd (Unit 1)",
           "location": "Seosan",
-          "capacity": 400,
-          "maintenance": "없음",
-          "is_current_maintenance": false,
+          "capacity": 0,
+          "maintenance": "Long-term Shutdown",
+          "is_current_maintenance": true,
           "lat": 36.8934,
           "lng": 126.3845,
           "has_future_maintenance": false,
-          "marker_size": 18
+          "marker_size": 10
         },
         {
           "country": "KOREA, SOUTH",
-          "company": "Hanwha TotalEnergies Petrochemical Co Ltd",
+          "company": "Hanwha TotalEnergies Petrochemical Co Ltd (Unit 2)",
           "location": "Seosan",
           "capacity": 650,
           "maintenance": "없음",
@@ -1667,7 +1659,7 @@
       ]
     },
     {
-      "lat": 23.782300000000003,
+      "lat": 23.7823,
       "lng": 120.2134,
       "location": "Mailiao",
       "country": "TAIWAN",
@@ -1777,6 +1769,532 @@
           "lng": 120.4,
           "has_future_maintenance": false,
           "marker_size": 14
+        }
+      ]
+    },
+    {
+      "lat": -6.0234,
+      "lng": 106.1234,
+      "location": "Serang",
+      "country": "INDONESIA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "PT Styrindo Mono",
+          "location": "Serang",
+          "country": "INDONESIA",
+          "capacity": 150,
+          "lat": -6.0234,
+          "lng": 106.1234,
+          "maintenance": "없음",
+          "marker_size": 14,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 1.2634,
+      "lng": 103.7123,
+      "location": "Jurong Island",
+      "country": "SINGAPORE",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Aster / Shell",
+          "location": "Jurong Island",
+          "country": "SINGAPORE",
+          "capacity": 800,
+          "lat": 1.2634,
+          "lng": 103.7123,
+          "maintenance": "없음",
+          "marker_size": 30,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 12.6523,
+      "lng": 101.1834,
+      "location": "Rayong",
+      "country": "THAILAND",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "IRPC / Siam Styrene",
+          "location": "Rayong",
+          "country": "THAILAND",
+          "capacity": 500,
+          "lat": 12.6523,
+          "lng": 101.1834,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 30.0523,
+      "lng": -90.8456,
+      "location": "St. James",
+      "country": "USA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Americas Styrenics",
+          "location": "St. James",
+          "country": "USA",
+          "capacity": 900,
+          "lat": 30.0523,
+          "lng": -90.8456,
+          "maintenance": "없음",
+          "marker_size": 30,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 30.1823,
+      "lng": -91.0234,
+      "location": "Carville",
+      "country": "USA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Cos-Mar (Lyondell/Sabic)",
+          "location": "Carville",
+          "country": "USA",
+          "capacity": 680,
+          "lat": 30.1823,
+          "lng": -91.0234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 29.6534,
+      "lng": -95.1523,
+      "location": "Pasadena",
+      "country": "USA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "INEOS Styrolution",
+          "location": "Pasadena",
+          "country": "USA",
+          "capacity": 650,
+          "lat": 29.6534,
+          "lng": -95.1523,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 29.3834,
+      "lng": -94.9123,
+      "location": "Texas City",
+      "country": "USA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "INEOS Styrolution",
+          "location": "Texas City",
+          "country": "USA",
+          "capacity": 590,
+          "lat": 29.3834,
+          "lng": -94.9123,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 29.7923,
+      "lng": -95.1234,
+      "location": "Channelview",
+      "country": "USA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "PO JV (LBI/Covestro)",
+          "location": "Channelview",
+          "country": "USA",
+          "capacity": 520,
+          "lat": 29.7923,
+          "lng": -95.1234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 53.7123,
+      "lng": -113.2456,
+      "location": "Ft. Saskatchewan",
+      "country": "CANADA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Shell Chemicals",
+          "location": "Ft. Saskatchewan",
+          "country": "CANADA",
+          "capacity": 300,
+          "lat": 53.7123,
+          "lng": -113.2456,
+          "maintenance": "없음",
+          "marker_size": 18,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": -23.8523,
+      "lng": -46.4234,
+      "location": "Triunfo",
+      "country": "BRAZIL",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "CBE / Videolar-Innova",
+          "location": "Triunfo",
+          "country": "BRAZIL",
+          "capacity": 340,
+          "lat": -23.8523,
+          "lng": -46.4234,
+          "maintenance": "없음",
+          "marker_size": 18,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 51.2923,
+      "lng": 4.3234,
+      "location": "Antwerp",
+      "country": "BELGIUM",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "INEOS Styrolution",
+          "location": "Antwerp",
+          "country": "BELGIUM",
+          "capacity": 600,
+          "lat": 51.2923,
+          "lng": 4.3234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 49.5134,
+      "lng": 0.2234,
+      "location": "Gonfreville",
+      "country": "FRANCE",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "TotalEnergies",
+          "location": "Gonfreville",
+          "country": "FRANCE",
+          "capacity": 500,
+          "lat": 49.5134,
+          "lng": 0.2234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 49.4823,
+      "lng": 8.4234,
+      "location": "Ludwigshafen",
+      "country": "GERMANY",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "BASF SE",
+          "location": "Ludwigshafen",
+          "country": "GERMANY",
+          "capacity": 900,
+          "lat": 49.4823,
+          "lng": 8.4234,
+          "maintenance": "없음",
+          "marker_size": 30,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 45.1623,
+      "lng": 10.7834,
+      "location": "Mantova",
+      "country": "ITALY",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Eni / Versalis",
+          "location": "Mantova",
+          "country": "ITALY",
+          "capacity": 200,
+          "lat": 45.1623,
+          "lng": 10.7834,
+          "maintenance": "없음",
+          "marker_size": 14,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 51.6823,
+      "lng": 4.6234,
+      "location": "Moerdijk",
+      "country": "NETHERLANDS",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Shell / Ellba",
+          "location": "Moerdijk",
+          "country": "NETHERLANDS",
+          "capacity": 450,
+          "lat": 51.6823,
+          "lng": 4.6234,
+          "maintenance": "없음",
+          "marker_size": 18,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 41.1523,
+      "lng": 1.2434,
+      "location": "La Pobla",
+      "country": "SPAIN",
+      "cluster_size": 1,
+      "has_future_maintenance": true,
+      "companies": [
+        {
+          "company": "Repsol Quimica",
+          "location": "La Pobla",
+          "country": "SPAIN",
+          "capacity": 500,
+          "maintenance": "1월, 2월, 3월",
+          "marker_size": 24,
+          "is_current_maintenance": true,
+          "has_future_maintenance": true
+        }
+      ]
+    },
+    {
+      "lat": 50.0334,
+      "lng": 19.2134,
+      "location": "Oswiecim",
+      "country": "POLAND",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Synthos",
+          "location": "Oswiecim",
+          "country": "POLAND",
+          "capacity": 110,
+          "lat": 50.0334,
+          "lng": 19.2134,
+          "maintenance": "없음",
+          "marker_size": 14,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 50.2423,
+      "lng": 14.3134,
+      "location": "Kralupy",
+      "country": "CZECH REPUBLIC",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Synthos",
+          "location": "Kralupy",
+          "country": "CZECH REPUBLIC",
+          "capacity": 135,
+          "lat": 50.2423,
+          "lng": 14.3134,
+          "maintenance": "없음",
+          "marker_size": 14,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 27.0134,
+      "lng": 49.5823,
+      "location": "Al Jubail",
+      "country": "SAUDI ARABIA",
+      "cluster_size": 1,
+      "has_future_maintenance": true,
+      "companies": [
+        {
+          "company": "Petrokemya / JCPA",
+          "location": "Al Jubail",
+          "country": "SAUDI ARABIA",
+          "capacity": 1120,
+          "lat": 27.0134,
+          "lng": 49.5823,
+          "maintenance": "3월",
+          "marker_size": 30,
+          "is_current_maintenance": false,
+          "has_future_maintenance": true
+        }
+      ]
+    },
+    {
+      "lat": 29.0923,
+      "lng": 48.1234,
+      "location": "Shuaiba",
+      "country": "KUWAIT",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Kuwait Styrene",
+          "location": "Shuaiba",
+          "country": "KUWAIT",
+          "capacity": 525,
+          "lat": 29.0923,
+          "lng": 48.1234,
+          "maintenance": "2월",
+          "marker_size": 24,
+          "is_current_maintenance": true,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 27.1823,
+      "lng": 52.6234,
+      "location": "Asaluyeh",
+      "country": "IRAN",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Pars Petrochemical",
+          "location": "Asaluyeh",
+          "country": "IRAN",
+          "capacity": 600,
+          "lat": 27.1823,
+          "lng": 52.6234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 38.0823,
+      "lng": 46.2923,
+      "location": "Tabriz",
+      "country": "IRAN",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Tabriz Petrochemical",
+          "location": "Tabriz",
+          "country": "IRAN",
+          "capacity": 300,
+          "lat": 38.0823,
+          "lng": 46.2923,
+          "maintenance": "없음",
+          "marker_size": 18,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 55.6323,
+      "lng": 51.8234,
+      "location": "Nizhnekamsk",
+      "country": "RUSSIA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Nizhnekamskneftekhim",
+          "location": "Nizhnekamsk",
+          "country": "RUSSIA",
+          "capacity": 650,
+          "lat": 55.6323,
+          "lng": 51.8234,
+          "maintenance": "없음",
+          "marker_size": 24,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
+        }
+      ]
+    },
+    {
+      "lat": 58.0134,
+      "lng": 56.2834,
+      "location": "Perm",
+      "country": "RUSSIA",
+      "cluster_size": 1,
+      "has_future_maintenance": false,
+      "companies": [
+        {
+          "company": "Sibur-Khimprom",
+          "location": "Perm",
+          "country": "RUSSIA",
+          "capacity": 160,
+          "lat": 58.0134,
+          "lng": 56.2834,
+          "maintenance": "없음",
+          "marker_size": 14,
+          "is_current_maintenance": false,
+          "has_future_maintenance": false
         }
       ]
     }
